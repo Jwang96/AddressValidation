@@ -88,7 +88,7 @@ namespace SE2018Project
         protected void Validate_Click(object sender, EventArgs e)
         {
                 string uspsUrl = "http://production.shippingapis.com/ShippingAPITest.dll?API=";
-                string userId = "855UNIVE0190";
+                string userId = "Your userID";
 
                 GetAddress(ApptNum.Text, Address.Text, City.Text, State.Text, ZipCode.Text, ZipCode4.Text, uspsUrl, userId);
         }
